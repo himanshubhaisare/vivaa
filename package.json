@@ -1,0 +1,23 @@
+{
+  "name": "vivaa",
+  "version": "1.0.0",
+  "description": "Notable Health Coding exercise",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanshubhaisare/vivaa.git"
+  },
+  "author": "Himanshu Bhaisare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himanshubhaisare/vivaa/issues"
+  },
+  "homepage": "https://github.com/himanshubhaisare/vivaa#readme"
+}
