@@ -3,7 +3,7 @@ var app = express()
 
 app.get('/', function (req, res) {
     res.send('Hello World')
-})
+});
 
 if (!module.parent) {
     app.listen(3000);

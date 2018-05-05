@@ -11,11 +11,15 @@ Installed Node/NPM
 
 created directory for server code
 `cd vivaa`
+
 created the server index file
 `vi index.js`
+
 Init package manager
 `npm init`
+
 Installed express 
 `npm install express --save`
+
 Start the server
 `node index.js`
