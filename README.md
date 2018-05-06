@@ -23,3 +23,6 @@ Installed express
 
 Start the server
 `node index.js`
+
+The application runs at 
+`http://localhost:4000/`
