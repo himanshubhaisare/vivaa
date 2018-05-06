@@ -8,14 +8,22 @@ app.get('/', function (req, res) {
 });
 
 app.get('/physicians', function (req, res) {
-    res.send(database.physicians);
+    res.set({
+        'Content-Type': 'application/json',
+    });
+    res.status(200)
+    res.json(database.physicians);
 });
 
 app.get('/physicians/appointments', function (req, res) {
-    res.send(database.appointments);
+    res.set({
+        'Content-Type': 'application/json',
+    });
+    res.status(200);
+    res.json(database.appointments);
 });
 
 if (!module.parent) {
     app.listen(4000);
-    console.log('Express started on port 3000');
+    console.log('API Server started on port 4000');
 }
