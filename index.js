@@ -9,9 +9,7 @@ app.get('/', function (req, res) {
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  res.set({
-        'Content-Type': 'application/json',
-    });
+  res.set({'Content-Type': 'application/json'});
   next();
 });
 
@@ -20,9 +18,11 @@ app.get('/physicians', function (req, res) {
     res.json(database.physicians);
 });
 
-app.get('/physicians/appointments', function (req, res) {
+app.get('/physicians/:physicianId/appointments', function (req, res) {
     res.status(200);
-    res.json(database.appointments);
+    const appts = database.appointments;
+    const matchingAppts = appts.filter(({physicianId}) => physicianId == req.params.physicianId);
+    res.json(matchingAppts);
 });
 
 if (!module.parent) {
