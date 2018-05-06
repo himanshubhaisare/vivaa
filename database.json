@@ -1,0 +1,30 @@
+{
+    "physicians": [
+        { "name": "Justin White" },
+        { "name": "Adam Green" },
+        { "name": "Sherry Armour" },
+        { "name": "Diane Curran" } 
+    ],
+    "appointments": [
+        { 
+            "name": "Sean Smith",
+            "time": "9:00 AM",
+            "type": "New Patient" 
+        },
+        { 
+            "name": "Sarah Taylor",
+            "time": "9:15 AM",
+            "type": "Follow-up" 
+        },
+        { 
+            "name": "Ben Folds",
+            "time": "9:30 AM",
+            "type": "Follow-up" 
+        },
+        { 
+            "name": "Jude Law",
+            "time": "9:45 AM",
+            "type": "New Patient" 
+        }
+    ]
+}
