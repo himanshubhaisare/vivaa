@@ -7,96 +7,112 @@
     ],
     "appointments": [
         { 
+            "id": 1,
             "physicianId": 1,
             "name": "Sean Smith",
             "time": "9:00 AM",
             "type": "New Patient" 
         },
         { 
+            "id": 2,
             "physicianId": 1,
             "name": "Sarah Taylor",
             "time": "9:15 AM",
             "type": "Follow-up" 
         },
         { 
+            "id": 3,
             "physicianId": 1,
             "name": "Ben Folds",
             "time": "9:30 AM",
             "type": "Follow-up" 
         },
         { 
+            "id": 15,
             "physicianId": 1,
             "name": "Jude Law",
             "time": "9:45 AM",
             "type": "New Patient" 
         },
         { 
+            "id": 4,
             "physicianId": 2,
             "name": "Brian Alexander",
             "time": "9:00 AM",
             "type": "New Patient" 
         },
         { 
+            "id": 5,
             "physicianId": 2,
             "name": "Griffin Mayor",
             "time": "9:15 AM",
             "type": "Follow-up" 
         },
         { 
+            "id": 5,
             "physicianId": 2,
             "name": "Ben Stiller",
             "time": "9:30 AM",
             "type": "Follow-up" 
         },
         { 
+            "id": 6,
             "physicianId": 2,
             "name": "Sally Moses",
             "time": "9:45 AM",
             "type": "New Patient" 
         },
         { 
+            "id": 7,
             "physicianId": 3,
             "name": "Keira Kane",
             "time": "9:00 AM",
             "type": "New Patient" 
         },
         { 
+            "id": 8,
             "physicianId": 3,
             "name": "Betty Silverspoon",
             "time": "9:15 AM",
             "type": "Follow-up" 
         },
         { 
+            "id": 9,
             "physicianId": 3,
             "name": "Chirag Madani",
             "time": "9:30 AM",
             "type": "Follow-up" 
         },
         { 
+            "id": 10,
             "physicianId": 3,
             "name": "Jesus Quintana",
             "time": "9:45 AM",
             "type": "New Patient" 
         },
         { 
+            "id": 11,
             "physicianId": 4,
             "name": "James Dean",
             "time": "9:00 AM",
             "type": "New Patient" 
         },
         { 
+            "id": 12,
             "physicianId": 4,
             "name": "Alex Kasperasky",
             "time": "9:15 AM",
             "type": "Follow-up" 
         },
         { 
+            "id": 13,
             "physicianId": 4,
             "name": "Major Lazor",
             "time": "9:30 AM",
             "type": "Follow-up" 
         },
         { 
+            "id": 14,
             "physicianId": 4,
             "name": "Kanye West",
             "time": "9:45 AM",
